@@ -6,7 +6,8 @@ Application useful with checking reachability of a lot of ip addresses
     mvn clean package
 ## Running
     java -jar Pinger-0.0.1-SNAPSHOT.jar
-    ![Interface](All.jpg)
+
+![Interface](All.jpg)
 
 At begin there is need to define timeout in ms (for 1s -> 1000)
 
