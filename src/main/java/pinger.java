@@ -24,6 +24,7 @@ public class pinger {
 	}
 
 	public static void main(String[] args) {
+		disableWarning();
 		int column = 0;
 		int destinationColumn = 0;
 		Scanner sc = new Scanner(System.in);
@@ -160,7 +161,10 @@ public class pinger {
 		}
 
 	}
-
+	public static void disableWarning() {
+	    System.err.close();
+	    System.setErr(System.out);
+	}
 	public static boolean sendPingRequest(String ipAddress) throws UnknownHostException {
 		Scanner sc = new Scanner(System.in);
 		// sc.nextLine();
