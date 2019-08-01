@@ -6,8 +6,8 @@ Application useful with checking reachability of a lot of ip addresses
     mvn clean package
 ## Running
     java -jar Pinger-0.0.1-SNAPSHOT.jar
-![Interface](https://gofile.io/?c=OGOlnn)
-[https://github.com/jczesak/Pinger/blob/master/All.jpg|alt=octocat]]
+    ![Interface](All.jpg)
+
 At begin there is need to define timeout in ms (for 1s -> 1000)
 
 Then pick file (there are listed xlsx files from directory where is jar file saved)
