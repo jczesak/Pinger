@@ -166,8 +166,7 @@ public class pinger {
 	    System.setErr(System.out);
 	}
 	public static boolean sendPingRequest(String ipAddress) throws UnknownHostException {
-		Scanner sc = new Scanner(System.in);
-		// sc.nextLine();
+		
 		InetAddress adress = null;
 
 		adress = InetAddress.getByName(ipAddress);
